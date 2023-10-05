@@ -17,8 +17,8 @@ else
     subcmd="-O - | /bin/sh"
 
     #----° Links °----#
-oscam=http://download1322.mediafire.com/th8sdpbj77sgj3L8JsOBnjdb14hgB6ldwZjtfyHh8CH2Wq56F0k9nsrk0jHlQS1K8YudP9V8wyY99GRlNliIhngc38si1Wbd8ohGsS-HT0wlM-Pzg22PNz1XhT61dPFi2_btC8rzLfBTZ-I8yqQpl6U2aFi94NiM6LzGkl_J7qnAd3E/2aq3en5y5tsygh6/enigma2-plugin-softcams-gosatplus-ncam_all.ipk
-    #oscam=http://178.63.156.75/paneladdons/OSCamEmus/11725/enigma2-softcams-oscam-all-images_11.725-emu-r798-arm+mips_all.ipk
+#oscam=http://download1322.mediafire.com/th8sdpbj77sgj3L8JsOBnjdb14hgB6ldwZjtfyHh8CH2Wq56F0k9nsrk0jHlQS1K8YudP9V8wyY99GRlNliIhngc38si1Wbd8ohGsS-HT0wlM-Pzg22PNz1XhT61dPFi2_btC8rzLfBTZ-I8yqQpl6U2aFi94NiM6LzGkl_J7qnAd3E/2aq3en5y5tsygh6/enigma2-plugin-softcams-gosatplus-ncam_all.ipk
+    oscam=http://178.63.156.75/paneladdons/OSCamEmus/11725/enigma2-softcams-oscam-all-images_11.725-emu-r798-arm+mips_all.ipk
     ncam=http://178.63.156.75/paneladdons/ARMbasedEMU/ncam/13.8/enigma2-plugin-softcams-ncam_V13.8-r0_all.ipk
     cccam=http://178.63.156.75/paneladdons/ARMbasedEMU/cccam/CCcam2.3.9/enigma2-softcams-cccam-all-images_2.3.9-r2-RAED_OE2.0_all.ipk
     PowerArmP2=http://files.powercam.me/powercam_v2-icam-arm.sh
@@ -43,7 +43,7 @@ echo """
       					mkdir Oscam
         sleep 2
       cd /oscam
-        ${CMD} ${oscam} --output /oscam/oscam.ipk
+        ${CMD} ${oscam} 
      cd ../
     elif [[ ${Answer} -eq 2 ]]; then
         echo $MYMSG ...
