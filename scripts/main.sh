@@ -127,7 +127,7 @@ EmuFun(){
         ${cmd} ${gitpro}${suOs} && ${cmd1} ${suOs}
     elif [[ ${Emu} -eq 10 ]]; then
     echo ${msgEmu}
-        ${cmd} ${gitpro}${sunc} && ${cmd1} $sunc}
+        ${cmd} ${gitpro}${sunc} && ${cmd1} ${sunc}
     else 
         echo "Invalide Choice"
     fi
